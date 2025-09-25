@@ -1,13 +1,13 @@
-import ChatScreen from './ChatScreen';
+import CounterApp from './CounterApp';
 import React from "react";
 
-import CommentSection from "./CommentSection";
+import ColorChangerApp from "./ColorChangerApp";
 
 export default function App() {
   return  (
    <>
-<ChatScreen />
-<CommentSection />
+<CounterApp />
+<ColorChangerApp/>
 
 </>
 )
